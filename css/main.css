@@ -6,22 +6,3 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 0.75fr 0.3fr 2fr 9fr 0.6fr;
 }
-
-header{
-    background-color: red;
-}
-
-.main-bar{
-    background-color: orange;
-}
-
-.news{
-    background-color: yellow;
-}
-.post{
-    background-color: yellowgreen;
-}
-
-footer{
-    background-color: skyblue;
-}
