@@ -6,3 +6,50 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 0.75fr 0.3fr 2fr 9fr 0.6fr;
 }
+header{
+    background-color: red;
+}
+
+.main-bar{
+    background-color: orange;
+}
+
+.news{
+    background-color: yellow;
+}
+
+.post{
+    background-color: yellowgreen;
+}
+
+footer{
+    padding: 10px;
+}
+
+footer div{
+    padding-bottom: 5px;
+    color: gray;
+}
+
+footer div strong{
+    font-weight: 600;
+    color: black;
+}
+
+.more-info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.more-top{
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+
+.more-bottom{
+    border-top: 1px solid gainsboro;
+    margin-top: 10px;
+}
+.small-font{
+    font-size: 10px;
+}
