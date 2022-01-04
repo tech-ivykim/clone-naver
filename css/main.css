@@ -1,3 +1,5 @@
+@import "image.css";
+
 body{
     width: 100vw;
     height: 400vh;
@@ -7,7 +9,30 @@ body{
     grid-template-rows: 0.75fr 0.3fr 2fr 9fr 0.6fr;
 }
 header{
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    width: 50%;
+    height: 30px;
+    border: 10px solid #19CE60;
+}
+
+.search-button{
+    width: 52px;
+    height: 52px;
+    background-color: #19CE60;
+    border: none;
+}
+
+.search-button:active{
+    background-color: #05C3A7;
+}
+
+#search:focus{
+    outline: none;
 }
 
 .main-bar{
