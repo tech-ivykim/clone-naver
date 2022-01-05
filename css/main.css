@@ -6,7 +6,7 @@ body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.75fr 0.3fr 2fr 9fr 0.6fr;
+    grid-template-rows: 0.75fr 0.2fr 2fr 9fr 0.6fr;
 }
 header{
     display: flex;
@@ -36,7 +36,26 @@ header{
 }
 
 .main-bar{
-    background-color: orange;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+}
+
+.main-bar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bar div:first-child{
+    color: #19CE60;
+}
+
+.main-bar div:nth-child(2){
+    color: black;
 }
 
 .news{
