@@ -6,7 +6,7 @@ body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.75fr 0.2fr 2fr 9fr 0.6fr;
+    grid-template-rows: 0.75fr 0.2fr 11fr 0.6fr;
 }
 header{
     display: flex;
@@ -36,8 +36,8 @@ header{
 }
 
 .main-bar{
-    border-top: 2px solid gainsboro;
-    border-bottom: 2px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -58,12 +58,34 @@ header{
     color: black;
 }
 
-.news{
-    background-color: yellow;
+.main-view{
+    background-color: gold;
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr 0.7fr 0.3fr;
 }
 
-.post{
-    background-color: yellowgreen;
+.main-view div{
+    border: 2px solid black;
+}
+
+.main-view__contents{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 0.5fr 0.5fr 0.5fr 1fr 50px;
+}
+
+.main-view__contents div{
+    border: 2px solid black;
+}
+
+.main-view__others{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 0.25fr 0.1fr 1fr 0.3fr 0.3fr 50px;
+}
+
+.main-view__others div{
+    border: 2px solid black;
 }
 
 footer{
