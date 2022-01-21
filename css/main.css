@@ -86,11 +86,16 @@ header{
 }
 
 .press-info{
-    margin-top: 5px;
+    margin: 10px 0;
     margin-right: 20px;
     height: 30px;
     display: flex;
     align-items: center;
+    font-weight: 600;
+}
+
+.far{
+    margin-right: 5px;
 }
 
 .press-type{
@@ -102,7 +107,6 @@ header{
     grid-template-rows: repeat(4,1fr);
     border-top: 1px solid #D5D5D5;
     border-left: 1px solid #D5D5D5;
-    background-color: #F7F9FA;
 }
 
 .press-type div{
@@ -111,6 +115,22 @@ header{
     align-items: center;
     border-bottom: 1px solid #D5D5D5;
     border-right: 1px solid #D5D5D5;
+}
+
+.article{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.article div{
+    font-weight: 600;
+    display: inline;
+}
+
+.article p{
+    color: gray;
+    font-size: 13px;
+    display: inline;
 }
 
 .main-view__contents{
